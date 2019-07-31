@@ -81,4 +81,8 @@ var orm = {
             callback(result);
         })
     }
-}
+    
+};
+
+// Exporting the ORM object so that burger.js (the model), can use it
+module.exports = orm;
