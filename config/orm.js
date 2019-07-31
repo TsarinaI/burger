@@ -78,7 +78,7 @@ var orm = {
                 throw err;
             }
 
-            callback(result;)
+            callback(result);
         })
     }
 }
