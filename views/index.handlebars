@@ -1,10 +1,10 @@
 <div id="header" class="text-center">
-    <h1 id="title">Eat the Burger!</h1>
+    <h1 id="title">Burgers for Nomming</h1>
     <img class="burger-image" src="assets/img/burger1.jpg" alt="burger gif">
 </div>
 <div class="container">
     <div class="col-sm-12 text-center">
-        <h4 "text-center">What burger do you want to NOM?</h4>
+        <h4 "text-center">Which burger do you want to NOM?</h4>
         <form class="button-size" action="/api/burgers" method="POST">
             <input type="text" class="text-center" id="insertBurger" name="burger_name" placeholder="Insert Burger Name Here..."></input>
             <span class="input-group-btn">
@@ -18,7 +18,7 @@
         <div class="col-sm-6">
             <h4 class="text-center columnHeading">Burgers to Eat:</h4>
             {{#each burgers}} {{#unless this.devoured}}
-            <form action="/api/update/{{this.id}}?_method=PUT" method="POST">
+            <form action="/api/burgers/{{this.id}}?_method=PUT" method="POST">
                 <div class="input-group">
                     <input type="hidden" name="devoured" value="true">
                     <li class="form-control uneaten">{{this.burger_name}}</li>
