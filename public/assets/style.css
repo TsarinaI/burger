@@ -1,6 +1,12 @@
 body {
-    background-color: #69F0AE;
-    /* rgb(106, 233, 106) #3360FF*/
+    background-image: url('https://media.giphy.com/media/jwjMNye78m6mA/giphy.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 #title {
     color: black;
