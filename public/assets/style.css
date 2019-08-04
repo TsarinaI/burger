@@ -1,5 +1,5 @@
 body {
-    background-image: url('http://giphygifs.s3.amazonaws.com/media/AAfpHO80onDYk/giphy.gif');
+    background-image: url('/assets/burgers.gif');
     background-size: cover;
     
     
@@ -9,7 +9,7 @@ body {
     margin:0;
 }
 #title {
-    color: black;
+    color: white;
     font-size: 100px;
     margin-bottom: 6px;
     font-family: 'Jua', sans-serif;
@@ -29,6 +29,7 @@ footer a {
 }
 h4 {
     font-family: 'Jua', sans-serif;
+    color: white;
 }
 .columnHeading {
     font-family: 'Jua', sans-serif;
