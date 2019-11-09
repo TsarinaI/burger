@@ -34,6 +34,9 @@
             {{#each burgers}} {{#if this.devoured}}
             <div>
                 <li class="form-control devoured">{{this.burger_name}}</li>
+                <span class="input-group-btn">
+                    <button class="deleteBurger btn btn-info" data-id="{{id}}" type="submit">Delete It!</button>
+                </span>
             </div>
             </form>
             {{/if}} {{/each}}

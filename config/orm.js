@@ -80,7 +80,9 @@ var orm = {
 
             callback(result);
         })
-    }
+    },
+
+    deleteOne: function() {}
     
 };
 
