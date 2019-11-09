@@ -12,7 +12,7 @@ router.post("/api/burgers", function (req, res) {
         "burger_name", "devoured"
     ], [
             req.body.burger_name, false/////here
-        ], function (results) { ////here
+        ], function (res) { ////here
             res.redirect("/")
         })
 })
